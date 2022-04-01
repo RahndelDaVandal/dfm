@@ -1,2 +1,7 @@
+antlr4-python3-runtime==4.8
 click==8.1.1
+dfm==0.1.0
+hydra-core==1.1.1
+omegaconf==2.1.1
+PyYAML==6.0
 typer==0.4.1
