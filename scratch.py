@@ -1,10 +1,10 @@
-import hydra
-from omegaconf import DictConfig, OmegaConf
 
-@hydra.main(config_path="conf", config_name="config")
-def my_app(cfg : DictConfig) -> None:
-    #print(OmegaConf.to_yaml(cfg))
-    print(cfg['db'])
+from pathlib import Path
+import yaml
 
-if __name__ == "__main__":
-    my_app()
+file_path = Path.cwd() / 'dfm' / 'config' / 'config.yaml'
+
+print(file_path)
+
+with open(file_path, 'r') as file:
+    doc = yaml.safe_load(file)

@@ -1,0 +1,13 @@
+!!python/object:__main__.Config
+dotfiles_path: !!python/object/apply:pathlib.PosixPath
+- /
+- home
+- pi
+- .dotfiles
+git_link: http://github.com
+shells:
+- bash
+- zsh
+- fish
+user_email: Connor.Sahleen@gmail.com
+user_name: Connor Sahleen

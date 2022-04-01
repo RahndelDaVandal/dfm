@@ -1,0 +1,9 @@
+!Config
+user_name: Connor Sahleen
+user_email: Connor.Sahleen@gmail.com
+git_link: http://github.com
+dotfiles_path: /home/pi/.dotfiles
+shells:
+- bash
+- zsh
+- fish
