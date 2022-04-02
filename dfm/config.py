@@ -69,6 +69,7 @@ def config_representer(dumper: yaml.SafeDumper, cfg: Config) -> yaml.nodes.Mappi
     'dotfiles_path' : cfg.dotfiles_path,
     'shells' : cfg.shells,
   })
+  
 
 def get_dumper():
   safe_dumper = yaml.SafeDumper
