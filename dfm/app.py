@@ -38,6 +38,13 @@ def install() -> None:
     """
     pass
 
+@app.command('update')
+def update() -> None:
+    """
+    update dotfiles
+    """
+    pass
+
 @app.command('remove')
 def remove() -> None:
     """
